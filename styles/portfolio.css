@@ -235,10 +235,9 @@ textarea {
     .header{
         background-image: none;
     }
-    nav, nav >ul, .banner, .skill-container, .resume-container,footer, .about-info-container{
+    nav, nav >ul, .banner, .skill-container, .resume-container, footer, .about-info-container,{
         flex-direction: column;
-    } 
-
+    }
     nav > ul{
         gap: 10px;
     }
