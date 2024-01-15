@@ -15,6 +15,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    white-space: nowrap;
 }
 
 .section-title {
@@ -117,7 +118,7 @@ main section {
     margin: 130px 0;
 }
 
-.about-info-containe {
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
@@ -201,6 +202,7 @@ main section {
 }
 
 /* footer styles */
+
 footer {
     display: flex;
     gap: 100px;
@@ -233,10 +235,8 @@ textarea {
 
 /* mobile device */
 @media screen and (max-width: 576px) {
-    .header{
-        background-image: none;
-    }
-    nav, nav >ul, .banner, .skill-container, .resume-container,footer,.about-info-container{
+   
+    nav, nav > ul, .banner, .skill-container, .resume-container,footer,.about-info-container{
         flex-direction: column;
     } 
 
